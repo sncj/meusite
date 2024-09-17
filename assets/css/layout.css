@@ -51,6 +51,7 @@ nav {
 }
 
 nav a {
+	color: white;
 	margin: 3%;
 	font-size: 15pt;
 }
