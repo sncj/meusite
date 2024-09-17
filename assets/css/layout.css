@@ -15,7 +15,6 @@ body {
 }
 
 header, nav, main, aside, footer {
-	background-color: coral;
 	display: flex;
 	margin: 3px;
 	flex: 1 1 100vw;
@@ -62,10 +61,12 @@ main {
 }
 
 aside {
+	background-color: Salmon;
 	height: 100px;
 }
 
 footer {
+	background-color: Tan;
 	height: 100px;
 }
 
