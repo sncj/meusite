@@ -55,6 +55,7 @@ header, nav, main, aside, footer {
 
 header {
 	/* Altura do elemento. */
+	background-color: Blue;
 	height: 100px;
 }
 
@@ -71,7 +72,7 @@ header #logo {
 	flex: 0 1 200px;
 
 	/* Cor do fundo. */
-	background: #c9c9c9;
+	background: Cyan;
 
 	/* Alinha os itens na vertical. */
 	justify-content: center;
@@ -105,6 +106,7 @@ header #logo {
 }
 
 nav {
+	background-color: black;
 	/* Alinha os itens na vertical. */
 	justify-content: center;
 
@@ -125,6 +127,7 @@ main {
 	/* Realizar a subtração de 100% da altura vertical menos a soma    */
 	/* da altura dos elementos ( 400px ) com as suas margens ( 36px ). */
 	height: calc(100vh - 436px);
+	background-color: ciano;
 }
 
 aside {
