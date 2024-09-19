@@ -9,27 +9,35 @@
   </head>
   <body>
     <form>
-      <div class="form-group row">
-        <label for="text1" class="col-4 col-form-label">Nome</label> 
-        <div class="col-8">
-          <input id="text1" name="text1" type="text" class="form-control">
+      <div class="form-group">
+        <label for="nome">Nome</label> 
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <i class="fa fa-address-card"></i>
+            </div>
+          </div> 
+          <input id="nome" name="nome" type="text" required="required" class="form-control">
         </div>
       </div>
-      <div class="form-group row">
-        <label class="col-4 col-form-label" for="text">Senha</label> 
-        <div class="col-8">
-          <input id="text" name="text" type="text" class="form-control">
+      <div class="form-group">
+        <label for="email">Email</label> 
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <i class="fa fa-at"></i>
+            </div>
+          </div> 
+          <input id="email" name="email" type="text" required="required" class="form-control">
         </div>
       </div>
-      <div class="form-group row">
-        <label for="textarea" class="col-4 col-form-label">Comentário</label> 
-        <div class="col-8">
-          <textarea id="textarea" name="textarea" cols="40" rows="5" class="form-control"></textarea>
-        </div>
+      <div class="form-group">
+        <label for="textarea">Comente</label> 
+        <textarea id="textarea" name="textarea" cols="40" rows="5" class="form-control"></textarea>
       </div>
-      <div class="form-group row">
-        <label class="col-4">Radio Buttons</label> 
-        <div class="col-8">
+      <div class="form-group">
+        <label>Sexo</label> 
+        <div>
           <div class="custom-control custom-radio custom-control-inline">
             <input name="radio" id="radio_0" type="radio" class="custom-control-input" value="masculino"> 
             <label for="radio_0" class="custom-control-label">Masculino</label>
@@ -44,10 +52,8 @@
           </div>
         </div>
       </div> 
-      <div class="form-group row">
-        <div class="offset-4 col-8">
-          <button name="submit" type="submit" class="btn btn-primary">Submit</button>
-        </div>
+      <div class="form-group">
+        <button name="submit" type="submit" class="btn btn-primary">Enviar</button>
       </div>
     </form>
   </body>
