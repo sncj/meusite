@@ -25,7 +25,7 @@ header {
 }
 
 header #logo {
-	background: Cyan;
+	background-color: Cyan;
 	display: flex;
 	flex: 0 1 200px;
 	justify-content: center;
@@ -43,6 +43,7 @@ header #logo {
 }
 
 nav {
+	color: black;
 	background-color: none;
 	justify-content: center;
 	align-items: center;
@@ -50,7 +51,7 @@ nav {
 }
 
 nav a {
-	color: white;
+	color: blue;
 	margin: 3%;
 	font-size: 15pt;
 }
