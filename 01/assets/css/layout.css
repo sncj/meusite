@@ -190,7 +190,7 @@ a {
 		justify-content: center;
 
 		/* Alinha os itens na horizontal. */
-		align-items: center;
+		align-items: right;
 
 		/* Remove a margem externa de todos os lados do elemento. */
 		margin: 0;
