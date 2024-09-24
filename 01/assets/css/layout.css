@@ -28,7 +28,7 @@ body {
 	flex: 1 1 100vw;
 
 	/* Margem de todos os lados. */
-	margin: 3px;
+	margin: 0px;
 }
 
 /* Formatação comum entre os elementos. */
@@ -109,7 +109,7 @@ nav {
 	justify-content: center;
 
 	/* Alinha os itens na horizontal. */
-	align-items: right;
+	/*align-items: right;
 
 	/* Altura do elemento. */
 	height: 100px;
