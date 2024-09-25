@@ -17,7 +17,7 @@ body {
 	/* Torna o elemento um flex container          */
 	/* e os seus elementos internos em flex-itens. */
 	display: flex;
-	color: inherit;
+	color: red;
 
 	/* Quebra de linha quando os itens não couberem na largura da tela. */
 	flex-wrap: wrap;
