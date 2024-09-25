@@ -36,9 +36,10 @@ header, nav, main, aside, footer {
 	/* Cor do fundo. */
 	background: #002121;
 
-	/* Exibição flexível.                          */
-	/* Torna o elemento um flex container          */
-	/* e os seus elementos internos em flex-itens. */
+	/* https://color.adobe.com/pt/create/color-contrast-analyzer 	*/
+	/* Exibição flexível.                            		*/
+	/* Torna o elemento um flex container          			*/
+	/* e os seus elementos internos em flex-itens. 			*/
 	display: flex;
 
 	/* Margem externa de todos os lados. */
