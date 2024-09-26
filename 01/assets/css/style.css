@@ -28,7 +28,7 @@ body {
 	flex: 1 1 100vw;
 
 	/* Margem de todos os lados. */
-	margin: 0px;
+	margin: 1px;
 }
 
 /* Formatação comum entre os elementos. */
