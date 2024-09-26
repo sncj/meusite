@@ -147,6 +147,7 @@ footer {
 	/* Altura do elemento. */
 	height: 100px;
   	color: green;
+	justify-content: center;
 }
 
 a {
