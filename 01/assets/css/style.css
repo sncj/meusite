@@ -35,7 +35,7 @@ body {
 header, nav, main, aside, footer {
 	/* Cor do fundo. */
 	background: #002121;
-  	color: green;
+  	color: white;
 
 	/* https://color.adobe.com/pt/create/color-contrast-analyzer 	*/
 	/* Exibição flexível.                            		*/
@@ -44,7 +44,7 @@ header, nav, main, aside, footer {
 	display: flex;
 
 	/* Margem externa de todos os lados. */
-	margin: 0px;
+	margin: 1px;
 
 	/* Junção de flex-grow, flex-shrink e flex-basis.  */
 	/* flex-grow – Habilidade de um flex item crescer. */
@@ -57,7 +57,7 @@ header, nav, main, aside, footer {
 
 header {
 	/* Altura do elemento. */
-  	color: green;
+  	color: white;
 	height: 100px;
 }
 
@@ -75,7 +75,7 @@ header #logo {
 
 	/* Cor do fundo. */
 	background: #c9c9c9;
-  	color: green;
+  	color: white;
 
 	/* Alinha os itens na vertical. */
 	justify-content: center;
@@ -87,7 +87,7 @@ header #logo {
 #openMenu, #closeMenu {
 	/* Remove a borda. */
 	border: none;
-  	color: green;
+  	color: white;
 
 	/* Remove a cor de fundo. */
 	background: none;
@@ -112,7 +112,7 @@ header #logo {
 nav {
 	/* Alinha os itens na vertical. */
 	justify-content: center;
-  	color: green;
+  	color: white;
 
 	/* Alinha os itens na horizontal. */
 	/*align-items: right;
@@ -125,21 +125,21 @@ nav a {
 	/* Margem de todos os lados. */
 	margin: 3%;
 	font-size: 15pt;
-  	color: green;
+  	color: white;
 
 }
 
 aside {
 	/* Altura do elemento. */
 	height: 100px;
-  	color: green;
+  	color: white;
 
 }
 
 footer {
 	/* Altura do elemento. */
 	height: 100px;
-  	color: green;
+  	color: white;
 	justify-content: center;
 }
 
@@ -151,63 +151,3 @@ a {
 	color: inherit;
 }
 
-/* Altera o estilo dos elementos para serem apresentados */ 
-/* em telas menores que 717px. */
-@media only screen and (max-width: 717px) {
-	#openMenu, #closeMenu {
-		/* Retorna a visibilidade padrão. */
-		display: block;
-	}
-
-	#openMenu {
-		/* Espaço a esquerda será preenchido automaticamente
-		   colocando os itens a direita. */
-		margin-left: auto;
-	}
-
-	#closeMenu {
-		/* Torna a posição do elemento fixa. */
-		position: fixed;
-
-		/* Dispõe o elemento a 15px da esquerda. */
-		right: 15px;
-
-		/* Dispõe o elemento a 15px do topo. */
-		top: 15px;
-	}
-
-	nav {
-		/* Torna a posição do elemento fixa. */
-		position: fixed;
-
-		/* Dispõe os itens em coluna. */
-		flex-direction: column;
-
-		/* Ocupa 100% da largura da tela de exibição. */
-		width: 100vw;
-
-		/* Ocupa 100% da altura da tela de exibição. */
-		height: 100vh;
-
-		/* Cor em RGB, mais transparência. */
-		background: rgba(255, 255, 255, 0.8);
-
-		/* Alinha os itens na vertical. */
-		justify-content: center;
-
-		/* Alinha os itens na horizontal. */
-		align-items: right;
-
-		/* Remove a margem externa de todos os lados do elemento. */
-		margin: 0;
-
-		/* Oculta o elemento. */
-		display: none;
-
-		/* Invisivel */
-		opacity: 0;
-
-		/* Velocidade de transição de um estado para outro. */
-		transition: 0.3s;
-	}
-}
