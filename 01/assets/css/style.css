@@ -115,7 +115,7 @@ nav {
   	color: white;
 	/* Alinha os itens na horizontal. */
 	align-items: center;
-
+	background: #002121;
 	/* Altura do elemento. */
 	height: 80px;
 }
