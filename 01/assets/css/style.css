@@ -111,13 +111,9 @@ header #logo {
 
 nav {
 	/* Alinha os itens na vertical. */
-	justify-content: center;
-  	color: white;
 	/* Alinha os itens na horizontal. */
-	align-items: center;
-	background: #002121;
 	/* Altura do elemento. */
-	height: 80px;
+	height: 60px;
 }
 
 nav a {
