@@ -113,12 +113,11 @@ nav {
 	/* Alinha os itens na vertical. */
 	justify-content: center;
   	color: white;
-
 	/* Alinha os itens na horizontal. */
-	align-items: right;
+	align-items: center;
 
 	/* Altura do elemento. */
-	height: 100px;
+	height: 80px;
 }
 
 nav a {
